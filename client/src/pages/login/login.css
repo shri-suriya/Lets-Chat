@@ -1,0 +1,34 @@
+
+.login-h1 {
+    font-weight: 100;
+    font-size: 1.8em;
+  font-weight: 100;
+    text-align: center;
+  font-family: sans-serif;
+    margin-bottom: 30px;
+}
+.form-input {
+  width:100%;
+  margin-bottom: 10px;
+    font-size: 0.85em;
+    font-weight: 100;
+    border-radius: 0px !important;
+    padding: 10px 20px;
+}
+input, textarea, button, button:focus {
+    outline: none;
+    box-shadow:none !important;
+}
+
+.form-submit {
+    background-color: royalblue;
+    border: none;
+    font-weight: 100;
+    font-size: 1em;
+    color: white;
+    padding: 10px 30px;
+    cursor: pointer;
+}
+.container.w-25.mt-5 {
+  padding-top: 130px;
+}
