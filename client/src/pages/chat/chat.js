@@ -12,7 +12,7 @@ const Chat = () => {
     const socketUrl = 'http://localhost:8000'
 
     useEffect(() => {
-        // const search = window.location.search;
+        const search = window.location.search;
         const params = new URLSearchParams(search);
         const user = params.get('name');
         const room = params.get('room');
